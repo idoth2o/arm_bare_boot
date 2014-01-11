@@ -18,6 +18,7 @@ install qemu-system & g++-arm-gcc
 Hello World!
 
 -   run `output.bin` on qemu with debug:
+   
         $ qemu-system-arm -M versatilepb -nographic -S -gdb tcp::1234 -kernel output.bin
 
         other window:
