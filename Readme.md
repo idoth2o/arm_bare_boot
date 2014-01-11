@@ -17,6 +17,13 @@ install qemu-system & g++-arm-gcc
         $ qemu-system-arm -M versatilepb -nographic -kernel output.bin
 Hello World!
 
+-   run `output.bin` on qemu with debug:
+        $ qemu-system-arm -M versatilepb -nographic -S -gdb tcp::1234 -kernel output.bin
+
+        other window:
+        $ arm-none-eabi-gdb output.elf
+        (gdb)c
+
 ## Reference
 
 reference : http://balau82.wordpress.com/2010/02/28/hello-world-for-bare-metal-arm-using-qemu/
