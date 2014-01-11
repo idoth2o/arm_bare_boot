@@ -5,11 +5,12 @@ OBJS = init.o startup.o
 
 # 定義済みマクロの再定義
 CROSS = arm-linux-gnueabi-
+DEBUG = -g
 AS = $(CROSS)as
 CC = $(CROSS)gcc
 OBJ_COPY = $(CROSS)objcopy
 #CFLAGS = -mcpu=arm926ej-s
-CFLAGS = -marm
+CFLAGS = -marm $(DEBUG)
 LD = $(CROSS)ld
 LDFLAGS = -T linker.ld
 
