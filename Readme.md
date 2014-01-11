@@ -23,6 +23,7 @@ Hello World!
 
         other window:
         $ arm-none-eabi-gdb output.elf
+        (gdb)target remote localhost:1234
         (gdb)c
 
 ## Reference
