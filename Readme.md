@@ -20,5 +20,7 @@ Hello World!
 ## Reference
 
 reference : http://balau82.wordpress.com/2010/02/28/hello-world-for-bare-metal-arm-using-qemu/
+
 original code : http://atelier-orchard.blogspot.jp/2013/02/arm-qemu.html
+
 enter DOZE and Sleep on ARM chip : http://stackoverflow.com/questions/8555545/how-do-i-enter-doze-and-sleep-mode-on-the-imx27-arm926
